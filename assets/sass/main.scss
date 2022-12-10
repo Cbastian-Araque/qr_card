@@ -1,0 +1,45 @@
+
+body{
+    background-color: rgb(178, 219, 236);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 0 6px rgba(0,0,0,.3), 1px 0 3px rgba(0,0,0,.3);
+    width: 360px;
+    margin: auto;
+    padding-bottom: 2rem;
+
+    .cnt_qr{
+        width: 100%;
+        img{
+            width: inherit;
+            border-radius: 10px;
+        }
+    }
+
+    .cnt_info{
+        .bold_txt{
+            text-align: center;
+            font-size: 26px;
+            line-height: 1.1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 90%;
+            margin: 1rem auto;
+        }
+
+        .txt{
+            font-size: 18px;
+            text-align: center;
+            line-height: 1.2;
+            color: rgb(189, 178, 178);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 90%;
+            margin: auto;
+        }
+    }
+}
